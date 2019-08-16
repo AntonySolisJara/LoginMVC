@@ -52,11 +52,11 @@ public class Validar extends HttpServlet {
                 request.getRequestDispatcher("Controlador?accion=principal").forward(request, response);
             }
             else{
-                request.getRequestDispatcher("index.jsp").forward(request, response);
+                request.getRequestDispatcher("principal.jsp").forward(request, response);
             }
         }
         else{
-            request.getRequestDispatcher("index.jsp").forward(request, response);
+            request.getRequestDispatcher("principal.jsp").forward(request, response);
         }
     }
 
